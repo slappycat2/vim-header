@@ -141,7 +141,8 @@ fun s:set_props()
           \ b:filetype == "clojure"
         let b:comment_char = ";;"
     " ----------------------------------
-    elseif b:filetype == "cs"
+    elseif b:filetype == "cs" ||
+          \ b:filetype == "proto"
         let b:comment_char = "//"
     " ----------------------------------
     elseif b:filetype == "xdefaults"
