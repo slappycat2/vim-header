@@ -264,6 +264,7 @@ Supported filetypes are:
 - cpp
 - cs
 - css
+- dosini
 - elixir
 - erlang
 - go
