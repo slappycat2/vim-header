@@ -296,6 +296,7 @@ Supported filetypes are:
 - vim
 - xdefaults
 - yaml
+- vimwiki
 
 And licenses are:
 

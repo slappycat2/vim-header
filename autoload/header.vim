@@ -168,7 +168,8 @@ fun s:set_props()
     " ----------------------------------
     elseif b:filetype == 'octave' ||
           \ b:filetype == 'matlab' ||
-          \ b:filetype == 'tex'
+          \ b:filetype == 'tex' ||
+          \ b:filetype == 'vimwiki'
         let b:comment_char = '%'
     " ----------------------------------
     elseif b:filetype == 'cfg'
