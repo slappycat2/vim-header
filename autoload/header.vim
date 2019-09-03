@@ -189,7 +189,7 @@ fun s:set_props()
         let b:first_line = '..'
         let b:comment_char = '  '
     " ----------------------------------
-	elseif b:filetype == 'vimwiki'
+	elseif b:filetype == 'markdown'
 		let b:comment_start = '```'
 		let b:comment_end = '```'
     else
