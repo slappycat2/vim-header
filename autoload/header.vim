@@ -169,7 +169,8 @@ fun s:set_props()
     " ----------------------------------
     elseif b:filetype == 'octave' ||
           \ b:filetype == 'matlab' ||
-          \ b:filetype == 'tex'
+          \ b:filetype == 'tex' ||
+		  \ b:filetype == 'vimwiki' 
         let b:comment_char = '%'
     " ----------------------------------
     elseif b:filetype == 'cfg'
@@ -194,6 +195,9 @@ fun s:set_props()
         let b:first_line = '; vim:ft=dosini'
         let b:comment_char = ';'
     " ----------------------------------
+	elseif b:filetype == 'markdown'
+		let b:comment_start = '```'
+		let b:comment_end = '```'
     else
         let b:is_filetype_available = 0
     endif
