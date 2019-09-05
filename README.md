@@ -78,7 +78,8 @@ Adding Licenses
 
 - `:AddMITLicense` Adds **MIT License**
 - `:AddApacheLicense` Adds **Apache License**
-- `:AddGNULicense` Adds **GNU License**
+- `:AddGNULicense` Adds **GNU GP License v3**
+- `:AddAGPLicense` Adds **GNU Affero GP License v3**
 - `:AddWTFPLLicense` Adds **WTFPL License**
 
 [⬆ back to top](#table-of-contents)
@@ -264,6 +265,7 @@ Supported filetypes are:
 - cpp
 - cs
 - css
+- dosini
 - elixir
 - erlang
 - go
@@ -297,6 +299,7 @@ Supported filetypes are:
 - xdefaults
 - yaml
 - vimwiki
+- proto
 
 And licenses are:
 

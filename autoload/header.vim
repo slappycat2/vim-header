@@ -141,7 +141,8 @@ fun s:set_props()
           \ b:filetype == "clojure"
         let b:comment_char = ";;"
     " ----------------------------------
-    elseif b:filetype == "cs"
+    elseif b:filetype == "cs" ||
+          \ b:filetype == "proto"
         let b:comment_char = "//"
     " ----------------------------------
     elseif b:filetype == "xdefaults"
@@ -189,6 +190,10 @@ fun s:set_props()
     elseif b:filetype == 'rst'
         let b:first_line = '..'
         let b:comment_char = '  '
+        " ----------------------------------
+    elseif b:filetype == 'dosini'
+        let b:first_line = '; vim:ft=dosini'
+        let b:comment_char = ';'
     " ----------------------------------
 	elseif b:filetype == 'markdown'
 		let b:comment_start = '```'
