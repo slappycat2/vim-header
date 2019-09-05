@@ -189,6 +189,10 @@ fun s:set_props()
     elseif b:filetype == 'rst'
         let b:first_line = '..'
         let b:comment_char = '  '
+        " ----------------------------------
+    elseif b:filetype == 'dosini'
+        let b:first_line = '; vim:ft=dosini'
+        let b:comment_char = ';'
     " ----------------------------------
     else
         let b:is_filetype_available = 0
