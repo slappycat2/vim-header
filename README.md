@@ -297,6 +297,7 @@ Supported filetypes are:
 - vim
 - xdefaults
 - yaml
+- proto
 
 And licenses are:
 
