@@ -1,3 +1,8 @@
+" File              : header.vim
+" Author            : Clyde Laforge <clyde.laforge@protonmail.ch>
+" Date              : 23.09.2019
+" Last Modified Date: 23.09.2019
+" Last Modified By  : Clyde Laforge <clyde.laforge@protonmail.ch>
 " PROPERTIES AND FUNCTIONS FOR GENERAL PURPOSES
 " ---------------------------------------------
 " Set default global values
@@ -69,6 +74,7 @@ fun s:set_props()
 
     " Setting Values for Languages
     if
+        \ b:filetype == 'arduino' ||
         \ b:filetype == 'c' ||
         \ b:filetype == 'cpp' ||
         \ b:filetype == 'css' ||
