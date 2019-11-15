@@ -1,3 +1,8 @@
+" File              : header.vim
+" Author            : Marcos Horro <marcos.horro@udc.gal>
+" Date              : Ven 15 Nov 2019 12:18:20 MST
+" Last Modified Date: Ven 15 Nov 2019 12:18:51 MST
+" Last Modified By  : Marcos Horro <marcos.horro@udc.gal>
 " PROPERTIES AND FUNCTIONS FOR GENERAL PURPOSES
 " ---------------------------------------------
 " Set default global values
@@ -186,14 +191,17 @@ fun s:set_props()
         " Support for VHDL 2008 block comments
         let b:comment_begin = '/*'
         let b:comment_end = '*/'
-        " ----------------------------------
+    " ----------------------------------
     elseif b:filetype == 'rst'
         let b:first_line = '..'
         let b:comment_char = '  '
-        " ----------------------------------
+    " ----------------------------------
     elseif b:filetype == 'dosini'
         let b:first_line = '; vim:ft=dosini'
         let b:comment_char = ';'
+    " ----------------------------------
+    elseif b:filetype == 'make'
+        let b:comment_char = '#'
     " ----------------------------------
     elseif b:filetype == 'markdown'
         let b:block_comment = 1
