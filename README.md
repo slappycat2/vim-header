@@ -80,7 +80,9 @@ Adding Licenses
 - `:AddApacheLicense` Adds **Apache License**
 - `:AddGNULicense` Adds **GNU GP License v3**
 - `:AddAGPLicense` Adds **GNU Affero GP License v3**
+- `:AddMPLLicense` Adds **Mozilla Public License**
 - `:AddWTFPLLicense` Adds **WTFPL License**
+- `:AddzlibLicense` Adds **zlib License**
 
 [⬆ back to top](#table-of-contents)
 
@@ -305,8 +307,11 @@ And licenses are:
 
 - MIT
 - Apache
-- GNU
+- GNU GPL
+- GNU AGPL
 - WTFPL
+- MPL
+- zlib
 
 If you want more filetypes or licenses, you can open issues or provide any
 improvements by pull requests on
