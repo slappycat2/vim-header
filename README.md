@@ -82,7 +82,7 @@ Adding Licenses
 - `:AddAGPLicense` Adds **GNU Affero GP License v3**
 - `:AddMPLLicense` Adds **Mozilla Public License**
 - `:AddWTFPLLicense` Adds **WTFPL License**
-- `:AddzlibLicense` Adds **zlib License**
+- `:AddZlibLicense` Adds **zlib License**
 
 [⬆ back to top](#table-of-contents)
 
