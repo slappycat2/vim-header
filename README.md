@@ -80,6 +80,7 @@ Adding Licenses
 - `:AddApacheLicense` Adds **Apache License**
 - `:AddGNULicense` Adds **GNU GP License v3**
 - `:AddAGPLicense` Adds **GNU Affero GP License v3**
+- `:AddLGPLLicense` Adds **GNU Lesser GP License**
 - `:AddMPLLicense` Adds **Mozilla Public License**
 - `:AddWTFPLLicense` Adds **WTFPL License**
 - `:AddZlibLicense` Adds **zlib License**
@@ -309,6 +310,7 @@ And licenses are:
 - Apache
 - GNU GPL
 - GNU AGPL
+- GNU LGPL
 - WTFPL
 - MPL
 - zlib
