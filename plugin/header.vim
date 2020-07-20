@@ -9,6 +9,7 @@ command! AddGNULicense call header#add_header(2, 'gnu', 0)
 command! AddAGPLicense call header#add_header(2, 'agpl', 0)
 command! AddWTFPLLicense call header#add_header(2, 'wtfpl', 0)
 command! AddMPLLicense call header#add_header(2, 'mpl', 0)
+command! AddEUPLicense call header#add_header(2, 'eupl', 0)
 
 " Set default global values
 if !exists('g:header_auto_add_header') || g:header_auto_add_header == 1
