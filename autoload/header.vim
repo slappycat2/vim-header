@@ -77,7 +77,9 @@ fun s:set_props()
         \ b:filetype == 'scala' ||
         \ b:filetype == 'javascript' ||
         \ b:filetype == 'javascript.jsx' ||
+        \ b:filetype == 'javascriptreact' ||
         \ b:filetype == 'typescript' ||
+        \ b:filetype == 'typescriptreact' ||
         \ b:filetype == 'less' ||
         \ b:filetype == 'php' ||
         \ b:filetype == 'go' ||
