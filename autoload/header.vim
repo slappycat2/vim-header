@@ -216,7 +216,9 @@ fun s:set_props()
     if
         \ b:filetype == 'javascript' ||
         \ b:filetype == 'javascript.jsx' ||
-        \ b:filetype == 'typescript'
+        \ b:filetype == 'javascriptreact' ||
+        \ b:filetype == 'typescript' ||
+        \ b:filetype == 'typescriptreact'
 
         let b:min_comment_begin = '/*!'
         let b:field_file = '@file'
