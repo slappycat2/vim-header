@@ -275,6 +275,7 @@ Supported filetypes are:
 - javascript
 - jsx
 - less
+- lex
 - lisp
 - lua
 - matlab/octave
@@ -297,6 +298,7 @@ Supported filetypes are:
 - verilog
 - vim
 - xdefaults
+- yacc
 - yaml
 - vimwiki
 - proto

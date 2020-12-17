@@ -89,7 +89,9 @@ fun s:set_props()
         \ b:filetype == 'go' ||
         \ b:filetype == 'sass' ||
         \ b:filetype == 'rust' ||
-        \ b:filetype == 'verilog'
+        \ b:filetype == 'verilog' ||
+        \ b:filetype == 'lex' ||
+        \ b:filetype == 'yacc'
 
         let b:block_comment = 1
         let b:comment_char = ' *'
