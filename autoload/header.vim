@@ -69,6 +69,7 @@ fun s:set_props()
 
     " Setting Values for Languages
     if
+        \ b:filetype == 'arduino' ||
         \ b:filetype == 'c' ||
         \ b:filetype == 'cpp' ||
         \ b:filetype == 'css' ||
