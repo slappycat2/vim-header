@@ -91,6 +91,7 @@ fun s:set_props()
         \ b:filetype == 'go' ||
         \ b:filetype == 'sass' ||
         \ b:filetype == 'rust' ||
+        \ b:filetype == 'systemverilog' ||
         \ b:filetype == 'verilog' ||
         \ b:filetype == 'lex' ||
         \ b:filetype == 'yacc'
