@@ -1,8 +1,3 @@
-" File              : header.vim
-" Author            : Marcos Horro <marcos.horro@udc.gal>
-" Date              : Ven 15 Nov 2019 12:18:20 MST
-" Last Modified Date: Ven 15 Nov 2019 12:18:51 MST
-" Last Modified By  : Marcos Horro <marcos.horro@udc.gal>
 " PROPERTIES AND FUNCTIONS FOR GENERAL PURPOSES
 " ---------------------------------------------
 " Set default global values

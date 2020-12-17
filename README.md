@@ -261,6 +261,7 @@ comment characters (`;`, `//`, `#`, ...). **`#` by default**.
 Filetypes support
 -----------------
 Supported filetypes are:
+- arduino
 - asm
 - c
 - cfg
@@ -277,16 +278,19 @@ Supported filetypes are:
 - java
 - javascript
 - jsx
+- kotlin
 - less
 - lex
 - lisp
 - lua
+- make
 - matlab/octave
 - ocaml
-- php
 - perl
+- php
 - plaintex
 - pug
+- proto
 - python
 - rst
 - ruby
@@ -297,6 +301,7 @@ Supported filetypes are:
 - sh
 - tex
 - tmux
+- tsx
 - vhdl
 - verilog
 - vim
@@ -304,17 +309,17 @@ Supported filetypes are:
 - yacc
 - yaml
 - vimwiki
-- proto
 
 And licenses are:
 
-- MIT
 - Apache
+- EUP
 - GNU GPL
 - GNU AGPL
 - GNU LGPL
-- WTFPL
+- MIT
 - MPL
+- WTFPL
 - zlib
 
 If you want more filetypes or licenses, you can open issues or provide any
