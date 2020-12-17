@@ -80,6 +80,7 @@ fun s:set_props()
         \ b:filetype == 'css' ||
         \ b:filetype == 'groovy' ||
         \ b:filetype == 'java' ||
+        \ b:filetype == 'kotlin' ||
         \ b:filetype == 'scala' ||
         \ b:filetype == 'javascript' ||
         \ b:filetype == 'javascript.jsx' ||
