@@ -1,10 +1,3 @@
-%      _____ _ _ _     Copyright (c) 2021 Cool Web Springs, LLC
-%     |  ___| | | |    File         :: README.md
-%     |___  | | | |    License      :: GNU GP License v.3
-%     |_____|_____|    Author       :: Swen Larsen <slarsen@gmail.com>
-%     |  ___|   | |    Date         :: 04-May-2021
-%     |  ___| | | |    Last Modified:: 04-May-2021
-%     |_____|_|___|    Modified By  :: Swen Larsen <slarsen@gmail.com>
 vim-header
 ==========
 Easily adds brief author info and license headers
