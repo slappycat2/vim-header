@@ -1,3 +1,11 @@
+"      _____ _ _ _     Copyright (c) 2021 Cool Web Springs, LLC
+"     |  ___| | | |    File         :: autoload/header.vim
+"     |___  | | | |    License      :: GNU GP License v.3
+"     |_____|_____|    Author       :: Swen Larsen <slarsen@gmail.com>
+"     |  ___|   | |    Date         :: 04-May-2021
+"     |  ___| | | |    Last Modified:: 04-May-2021
+"     |_____|_|___|    Modified By  :: Swen Larsen <slarsen@gmail.com>
+" autoload/header.vim
 " PROPERTIES AND FUNCTIONS FOR GENERAL PURPOSES
 " ---------------------------------------------
 " Set default global values
@@ -29,7 +37,7 @@ if !exists('g:header_field_modified_by')
     let g:header_field_modified_by = 1
 endif
 if !exists('g:header_field_timestamp_format')
-    let g:header_field_timestamp_format = '%d.%m.%Y'
+    let g:header_field_timestamp_format = '%d.%b.%Y'
 endif
 if !exists('g:header_cfg_comment_char')
     let g:header_cfg_comment_char = '#'
@@ -59,13 +67,22 @@ fun s:set_props()
     let b:comment_char = '' " Comment char, or for block comment trailing char of body
     let b:auto_space_after_char = 1 " Put auto space after comment char, if line is not empty
     " Field placeholders according to doc comment syntax, if available
-    let b:field_file = 'File'
-    let b:field_license_id = 'License'
-    let b:field_author = 'Author'
-    let b:field_date = 'Date'
-    let b:field_modified_date = 'Last Modified Date'
-    let b:field_modified_by = 'Last Modified By'
-    let b:field_separator = ':'
+
+      "     _____ _ _ _     This is the top, copyright line defined in .vimrc (See README.md)
+      "    |  ___| | | |    File              : .config/nvim/init.vim
+      "    |___  | | | |    License           : GNU GP License v.3
+      "    |_____|_____|    Author            : Swen Larsen <slarsen@gmail.com>
+      "    |  ___|   | |    Date              : 21-Apr-2021
+      "    |  ___| | | |    Last Modified: 04-May-2021
+      "    |_____|_|___|    Modified By  : Swen Larsen <slarsen@gmail.com>
+      "        
+    let b:field_file          = '    |  ___| | | |    File         :'
+    let b:field_license_id    = '    |___  | | | |    License      :'
+    let b:field_author        = '    |_____|_____|    Author       :'
+    let b:field_date          = '    |  ___|   | |    Date         :'
+    let b:field_modified_date = '    |  ___| | | |    Last Modified:'
+    let b:field_modified_by   = '    |_____|_|___|    Modified By  :'
+    let b:field_separator     = ':'
 
     " Setting Values for Languages
     if
@@ -126,8 +143,8 @@ fun s:set_props()
         let b:comment_char = '#'
     " ----------------------------------
     elseif b:filetype == 'sh'
-        let b:first_line = '#!/bin/bash'
-        let b:first_line_pattern = '#!\s*/bin/bash'
+        let b:first_line = '#!/bin/env bash'
+        let b:first_line_pattern = '#!\s*/bin/env bash'
         let b:comment_char = '#'
     elseif b:filetype == 'zsh'
         let b:first_line = '#!/bin/zsh'
