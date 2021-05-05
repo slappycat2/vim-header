@@ -1,6 +1,18 @@
+%      _____ _ _ _     Copyright (c) 2021 Cool Web Springs, LLC
+%     |  ___| | | |    File         :: README.md
+%     |___  | | | |    License      :: GNU GP License v.3
+%     |_____|_____|    Author       :: Swen Larsen <slarsen@gmail.com>
+%     |  ___|   | |    Date         :: 04-May-2021
+%     |  ___| | | |    Last Modified:: 04-May-2021
+%     |_____|_|___|    Modified By  :: Swen Larsen <slarsen@gmail.com>
 vim-header
 ==========
 Easily adds brief author info and license headers
+This is a personalized fork of [alpertuna/vim-header](https://github.com/alpertuna/vim-header). 
+
+### Thanks to [alpertuna/vim-header](https://github.com/alpertuna/vim-header). and all his Contributors
+
+[Contributors List](https://github.com/alpertuna/vim-header/graphs/contributors)
 
 Table of Contents
 =================
@@ -323,9 +335,7 @@ And licenses are:
 - zlib
 
 If you want more filetypes or licenses, you can open issues or provide any
-improvements by pull requests on
-[alpertuna/vim-header](https://github.com/alpertuna/vim-header). Also you can
-correct my English on README file or at comments in source code.
+improvements by pull requests through me, or on [alpertuna/vim-header](https://github.com/alpertuna/vim-header). 
 
 ### Thanks to Contributors
 [Contributors List](https://github.com/alpertuna/vim-header/graphs/contributors)
