@@ -1,10 +1,10 @@
-"      _____ _ _ _     Copyright (c) 2021 Cool Web Springs, LLC
-"     |  ___| | | |    File         :: autoload/header.vim
-"     |___  | | | |    License      :: GNU GP License v.3
-"     |_____|_____|    Author       :: Swen Larsen <slarsen@gmail.com>
-"     |  ___|   | |    Date         :: 04-May-2021
-"     |  ___| | | |    Last Modified:: 04-May-2021
-"     |_____|_|___|    Modified By  :: Swen Larsen <slarsen@gmail.com>
+"     _____ _ _ _     Copyright (c) 2021 Cool Web Springs, LLC
+"    |  ___| | | |    File         : autoload/header.vim
+"    |___  | | | |    License      : GNU GP License v.3
+"    |_____|_____|    Author       : Swen Larsen <slarsen@gmail.com>
+"    |  ___|   | |    Date Created : 06-May-2021
+"    |  ___| | | |    Last Modified: 06-May-2021
+"    |_____|_|___|    Modified By  : Swen Larsen <slarsen@gmail.com>
 " autoload/header.vim
 " PROPERTIES AND FUNCTIONS FOR GENERAL PURPOSES
 " ---------------------------------------------
@@ -72,22 +72,23 @@ fun s:set_props()
       "    |  ___| | | |    File              : .config/nvim/init.vim
       "    |___  | | | |    License           : GNU GP License v.3
       "    |_____|_____|    Author            : Swen Larsen <slarsen@gmail.com>
-      "    |  ___|   | |    Date              : 21-Apr-2021
+      "    |  ___|   | |    Date Created      : 21-Apr-2021
       "    |  ___| | | |    Last Modified: 04-May-2021
       "    |_____|_|___|    Modified By  : Swen Larsen <slarsen@gmail.com>
       "        
-    let b:field_file          = '    |  ___| | | |    File         :'
-    let b:field_license_id    = '    |___  | | | |    License      :'
-    let b:field_author        = '    |_____|_____|    Author       :'
-    let b:field_date          = '    |  ___|   | |    Date         :'
-    let b:field_modified_date = '    |  ___| | | |    Last Modified:'
-    let b:field_modified_by   = '    |_____|_|___|    Modified By  :'
+    let b:field_file          = '   |  ___| | | |    File         '
+    let b:field_license_id    = '   |___  | | | |    License      '
+    let b:field_author        = '   |_____|_____|    Author       '
+    let b:field_date          = '   |  ___|   | |    Date Created '
+    let b:field_modified_date = '   |  ___| | | |    Last Modified'
+    let b:field_modified_by   = '   |_____|_|___|    Modified By  '
     let b:field_separator     = ':'
 
     " Setting Values for Languages
     if
         \ b:filetype == 'arduino' ||
         \ b:filetype == 'c' ||
+        \ b:filetype == 'h' ||
         \ b:filetype == 'cpp' ||
         \ b:filetype == 'css' ||
         \ b:filetype == 'groovy' ||
